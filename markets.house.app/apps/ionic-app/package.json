@@ -1,0 +1,11 @@
+{
+  "name": "@markets.house.app/ionic-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@ionic/react": "^8.6.2",
+    "@ionic/react-router": "^8.6.2",
+    "react-datepicker": "^8.4.0",
+    "react-router-dom": "^5.3.4"
+  }
+}

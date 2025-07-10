@@ -1,0 +1,25 @@
+:root {
+  --app-header-color: #F0F0F0;
+  --app-button-color: #e7441a;
+}
+
+.app-header {
+  --background: var(--app-header-color);
+}
+
+.app-button {
+  --color: var(--app-button-color);
+}
+
+.app-button-outline {
+  --color: #ffffff;
+  --background: var(--app-button-color);
+}
+
+ion-tab-button.app-button.tab-selected {
+  --color-selected: var(--app-button-color);
+}
+
+ion-content {
+  --padding: 16px;
+} 

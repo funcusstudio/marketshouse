@@ -1,0 +1,99 @@
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.project-slides {
+    height: 40vh;
+}
+
+.slide-image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-image-container ion-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-details-card {
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.price-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.project-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--ion-color-dark);
+}
+
+.project-regular-price {
+    font-size: 1.2rem;
+    color: var(--ion-color-medium);
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.project-sale-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--ion-color-danger);
+}
+
+.sale-badge {
+    background-color: var(--ion-color-danger);
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.project-full-description {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.attributes-section,
+.categories-section,
+.select-project-section,
+.external-link-section {
+    margin: 20px 0;
+    padding-top: 10px;
+    border-top: 1px solid var(--ion-color-light);
+}
+
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.category-tag {
+    background-color: var(--ion-color-light);
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.select-button {
+    margin-top: 16px;
+}
